@@ -10,7 +10,7 @@ The initial description of the idea can be found at https://fiatjaf.com/nostr.ht
 
 It's a very simple idea: each person can publish their notes to multiple relays (which are just simple servers), and people who follow them can connect to these relays and fetch the notes. The protocol just defines the messages that can be sent between clients and relays in order to publish and fetch the content they want.
 
-![](https://the-nostr.org/diagram.jpg)
+![](diagram.jpg)
 
 These relays can be hosted by anyone and have any rule or internal policy they want. The fact that the protocol is open makes it so that, as long as there is any relay willing to host someone, they can still publish their stuff for their followers, and the followers can find their stuff in that relay.
 
